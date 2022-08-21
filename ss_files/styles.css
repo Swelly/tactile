@@ -1,0 +1,84 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  color: #19232d;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: none;
+  display: block;
+}
+
+::selection {
+    background: #00e100;
+    color: #19232d;
+}
+
+h1, h2, h5 {
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+h1, h2 {
+  font-size: 2.7rem;
+}
+
+h1 {
+  line-height: 1.3;
+  margin-top: 0;
+}
+
+i, p {
+  line-height: 1.59;
+  font-size: 1.51rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+
+.Layout {
+  max-width: 63.2rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  padding-top: 2.5rem;
+}
+
+.Layout-content {
+  flex-grow: 1;
+}
+
+.Footer {
+    margin-top: 3rem;
+    padding-top: 0.2rem;
+    border-top: 1px solid #dce6f0;
+    z-index: 2;
+}
+
+.Footer > ul {
+  padding: 0;
+  height: 50px;
+  width: 90%;
+  margin: 0;
+  list-style-type: none;
+}
+
+.Footer > ul > li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.Footer > ul > li> a {
+  color: #828c96;
+  font-size: 1.2rem;
+  font-family: NBInter,monospace;
+}
